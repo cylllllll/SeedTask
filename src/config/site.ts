@@ -2,7 +2,7 @@ import { socialLinks } from "./socialLinks";
 
 export const siteConfig = {
 	name: "SeedTask",
-	description: "Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
+	description: "一款 qBittorrent 的第三方 iOS 客户端，让你在手机上随时随地管理种子任务。",
 	keywords: ["qbittorrent", "SwiftUI", "Liquid Glass", "iOS", "App"],
 	logo: "/assets/seed.svg",
 	storeLinks: {

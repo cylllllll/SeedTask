@@ -12,7 +12,7 @@ const Screenshots = ({ images }: ScreenshotsProps) => {
 		<div className="mb-16">
 			<div className="mb-6 flex items-center justify-between">
 				<h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
-					Screenshots
+					预览
 				</h2>
 				<DeviceToggle activeDevice={activeDevice} onToggle={setActiveDevice} />
 			</div>
@@ -33,7 +33,7 @@ const Screenshots = ({ images }: ScreenshotsProps) => {
 									alt={`Screenshot ${index + 1}`}
 									className={`rounded-xl border border-gray-300 dark:border-white/10 object-cover shadow-lg ${
 										isIphone
-											? "aspect-[9/16] w-[260px]"
+											? " w-[260px]"
 											: "aspect-[4/3] w-[360px]"
 									}`}
 									loading="lazy"

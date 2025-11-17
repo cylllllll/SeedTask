@@ -1,20 +1,24 @@
-import { FiBox, FiStar, FiZap } from "react-icons/fi";
-import type { Feature } from "@/types/app";
+import type {Feature} from "@/types/app";
+import {
+    TbAdCircleOff
+    , TbGlassFilled,
+    TbLockAccess,
+} from "react-icons/tb";
 
 export const features: Feature[] = [
-	{
-		title: "Main Feature",
-		description: "Describe your main feature here. What makes it special?",
-		icon: FiStar,
-	},
-	{
-		title: "Another Feature",
-		description: "What else can your app do? Tell users about it here.",
-		icon: FiZap,
-	},
-	{
-		title: "One More Feature",
-		description: "Add another key feature of your application here.",
-		icon: FiBox,
-	},
+    {
+        title: "Liquid Glass",
+        description: "使用 iOS 26 Liquid Glass 设计风格。",
+        icon: TbGlassFilled,
+    },
+    {
+        title: "无广告",
+        description: "没有任何广告干扰你的体验。",
+        icon: TbAdCircleOff,
+    },
+    {
+        title: "隐私保护",
+        description: "不收集任何数据，所有数据都将留在本地。",
+        icon: TbLockAccess,
+    },
 ];
