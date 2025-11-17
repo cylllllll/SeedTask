@@ -17,13 +17,13 @@ const DeviceToggle = ({ activeDevice, onToggle }: DeviceToggleProps) => {
 				label="iPhone"
 				icon={<IoPhonePortraitOutline className="w-4 h-4" />}
 			/>
-			<DeviceButton
+			{/*<DeviceButton
 				key="ipad"
 				isActive={activeDevice === "ipad"}
 				onClick={handleIpadClick}
 				label="iPad"
 				icon={<FiTablet className="w-4 h-4" />}
-			/>
+			/>*/}
 		</div>
 	);
 };

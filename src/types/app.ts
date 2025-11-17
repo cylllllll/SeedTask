@@ -5,6 +5,7 @@ export type AppLogo = string;
 export interface StoreLinks {
 	apple: string;
 	google: string;
+    apple_testflight: string;
 }
 
 export interface Feature {
