@@ -7,7 +7,7 @@ export const siteConfig = {
 	logo: "/assets/seed.svg",
 	storeLinks: {
 		apple: "#",
-        apple_testflight: "#",
+        apple_testflight: "https://testflight.apple.com/join/Be2qS88r",
 	},
 	socialLinks,
 } as const;
